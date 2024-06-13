@@ -1,0 +1,173 @@
+h3 {
+    text-align: center;
+    color: rgb(141, 1, 78);
+    font-size: 28px;
+}
+#form {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: 20px 130px;
+ }
+
+.imagen {
+    display: flex;
+    width: 55%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid rgb(204, 182, 154);
+    box-shadow: 6px 6px 6px;
+}
+
+#column {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border: 3px solid rgb(204, 182, 154);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 35%;
+    height: auto;
+    font-size: 14px;
+}
+
+form {
+    width: 100%;
+    height: auto;
+}
+
+input, textarea  {
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    box-sizing: border-box; 
+/* Asegura que el padding y border se incluyen en el ancho total */
+}
+textarea {
+    height: 100px;
+    font-size: 14px;
+}
+
+#registroFechaNacimiento {
+    width: 35%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    & p {
+        width: 70%;
+    }
+}
+.box1 {
+    width: 100%;   
+}
+.checkbox {
+    display: flex;
+    padding-top: 10px;
+    margin-top: -7px;
+}
+
+form button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 13px;
+    width: 65px;
+    height: 26px;
+}
+button:hover {
+    background-color: rgb(141, 1, 78);
+    color: white;   
+}
+
+
+@media (max-width:1000px) {
+h3 {
+        font-size: 22px;
+}
+
+#form {
+        width: auto;
+        height: auto;
+        margin: 10px 60px;
+}
+#column {
+        font-size: 13px;
+        width: 35%;
+        height: auto;
+}
+input {
+   font-size: 13px;
+    width: 90%;
+    height: 30px;
+}
+textarea {
+    font-size: 13px;
+}
+
+#registroFechaNacimiento {
+        width: 30%;
+        height: 20px;
+}
+form button {
+    font-size: 12px;
+    width: 60px;
+    height: 24px;
+}
+}
+
+@media (max-width:700px) {
+h3 {
+        font-size: 18px;
+}
+#form {
+        width: auto;
+        height: auto;
+        margin: 10px 30px;
+    }
+.imagen {
+        width: 45%;
+        height: 120px;
+        margin: 20px 0;
+}
+#column {
+        font-size: 11px;
+        width: 40%;
+        height: auto;
+}
+    
+input {
+    font-size: 11px;
+        width: 90%;
+        height: 20px;
+        margin-bottom: 4px;
+}
+textarea {
+    font-size: 11px;
+        height: 60px;
+}
+    
+#registroFechaNacimiento {
+        width: 90px;
+}
+.checkbox {
+    width: 18px;
+    height: auto;
+    margin-top: -4px;
+}  
+form button {
+    font-size: 11px;
+    width: 50px;
+    height: 23px;
+} 
+}

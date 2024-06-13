@@ -1,0 +1,37 @@
+[
+    {
+      "foto": "./fotos/cepilloRedondo.jpg",
+      "titulo": "Cepillos redondos Termix",
+      "parrafo":
+        "Pack de cepillo de Pelo Redondo Profesional Termix Evolution Basic. Para todo tipo de cabellos, combinan tecnología cerámica e iónica para potenciar el brillo del cabello al máximo, in daños, ni roturas.  ",
+      "precio": "80,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+   {
+      "foto": "./fotos/secador.webp",
+      "titulo": "Secador profesional Alyon",
+      "parrafo":
+        "Su tecnología iónica: que consigue eliminar el encrespado desde el proceso de secado. Es muy ligero (pesa 450 gramos): y también tiene un diseño ergonómico, para facilitar su manejo.",
+      "precio": "120,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/planchas.jpg",
+      "titulo": "Planchas gold",
+      "parrafo":
+        "Equipada con tecnología dual-zone para un rendimiento superior, cuenta con dos sensores de calor de última generación, uno en cada placa, para mantener uniformemente la temperatura óptima de peinado de 185ºC de la raíz a las puntas",
+      "precio": "180,00€",
+      "boton": "Añadir a la cesta"
+    },  
+    
+    {
+      "foto": "./fotos/maquinacorte.jpg",
+      "titulo": "Maquina wahl magic red",
+      "parrafo":
+        "Potente cortadora con cable de alto rendimiento, adecuado para el uso continuo. Adecuado para cortes de cabello al ras. Cuchilla cromada plana especial para realizar degradados.",
+      "precio": "50,00€",
+      "boton": "Añadir a la cesta"
+    }
+  ]

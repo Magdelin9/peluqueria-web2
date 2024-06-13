@@ -1,0 +1,88 @@
+h3 {
+    background-color: rgb(12, 12, 12);
+    color: antiquewhite;
+    border: 1px solid rgb(204, 182, 154);
+    text-align: center;
+    margin: 0;
+    padding: 10px;   
+}
+
+#miServicio {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    }
+
+.tabla {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.tabla li {
+    border: 2px solid rgb(204, 182, 154);
+    list-style-type: none;
+    font-size: 14px;
+    height: auto;
+    padding: 5px 30px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+
+@media(max-width:1000px){
+h3 {
+    font-size: 16px;
+}
+    
+.tabla {
+    width: auto;
+    height: auto;
+    padding: 0;
+    background-color: antiquewhite;
+}
+    
+.tabla li {
+    font-size: 13px;
+    padding: 0;
+    padding: 5px 20px;
+}
+.mapa {
+    width: auto;
+    height: auto;
+    margin: 10px 150px;
+}
+}
+
+@media(max-width:700px){
+h3 {
+    font-size: 13px;
+}
+    
+.tabla {
+    width: auto;
+    height: auto;
+    padding: 0;
+    background-color: antiquewhite;
+}
+    
+.tabla li {
+    font-size: 12px;  
+    padding: 2px;
+}
+
+.mapa {
+    width: auto;
+    height: auto;
+    margin: 10px 100px;
+}
+}

@@ -1,0 +1,292 @@
+* {
+    order: 1px solid aqua;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*Familia de fuentes*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+#cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: space-evenly; 
+    background-color: rgba(250, 235, 215, 0.719);
+    width: 100%;
+    height: auto;
+    padding: 0.5%;
+    gap: 8%;
+}
+
+/*estilos para el logo*/
+.logo {
+    display: flex;
+    align-self: center;
+    width: 105px;
+    height: auto;
+}
+.logo a {
+    display: flex;
+    width: 105px;
+    height: auto;
+    margin: 0;
+}
+.logotipo {
+    display: flex;
+    width: 105px;
+    height: auto;
+}
+.logotipo:hover {
+    transform: scale(1.15);
+}
+
+/*Estilos para el menu de navegacion*/
+.menuRojo { 
+    display: flex;
+    align-self: center;
+    width: 636px;
+    height: auto;
+}
+
+.menuRojo ul {
+    display: flex;
+    list-style-type: none;
+    /*Eliminar viñetas de la lista*/
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    height: auto;
+    gap: 6.5%;
+}
+.menuRojo li a {
+    font-size: 19px;
+    font-weight: bold;
+}
+.menuRojo li:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    /*Sin subrayado de enlace*/
+    color: black;
+ }
+
+.menuRojo1 {
+    display: none; 
+    /*Ocultar el elemento*/
+}
+
+.barra {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+/* Estilo para el enlace activo */
+.barra a.active {
+    color: rgb(141, 1, 78);
+}
+
+
+#carrito {
+    align-self: center;
+    width: 62px;
+    height: 37px;
+    margin-right: 15px;
+}
+#carrito img {
+    width: 62px;
+    height: 37px;
+    margin-right: 15px;
+}
+
+#carritoContainer {
+    text-align: center;
+    width: auto;
+    height: 100%;
+    border: 2px solid rgb(204, 182, 154);
+    margin: 50px 200px;
+}
+
+.vaciarCarrito, .comprarProducto {
+    background-color: antiquewhite;
+    border: 2px solid rgb(204, 182, 154);
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.vaciarCarrito:hover, .comprarProducto:hover {
+    background-color: #e99a9a;
+}
+
+#botonAñadir {
+    background-color: antiquewhite;
+    border: 2px solid rgb(204, 182, 154);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#botonAñadir:hover {
+    background-color: rgb(141, 1, 78);
+    color: white;
+}
+
+.eliminarProducto {
+    background-color: #f44336;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#fondoPortada {
+    height: 88vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.flecha {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba(250, 235, 215, 0.252);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    width: 40px;
+    height: 55px;
+    margin: 5% 5%;
+}
+
+#flechaIzquierda {
+    left: 10px;
+    border-radius: 8px;
+}
+
+#flechaDerecha {
+    right: 10px;
+    border-radius: 5px;
+}
+
+.reserva1 {
+    display: none;
+}
+/*Estilos para el boton de reserva*/
+.reserva {
+    display: flex;
+    position: absolute;
+    width: 150px; 
+    height: auto;
+    margin: -430px 0 0 120px;
+}
+.reserva a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+.reserva button {
+    background-color: antiquewhite;
+    border: 2px solid rgb(204, 182, 154);
+    width: 100%;
+    height: 46px; 
+    border-radius: 10px;
+    /*Establecer bordes redondeados para todos los lados*/
+}
+
+.reserva button:hover {
+    transform: scale(1.1);
+    background-color: rgb(141, 1, 78);
+    & a {
+        color: white;
+      }
+}
+#toggle, .button  {
+    display: none;
+}
+h1 {
+    text-align: center;
+    color: rgb(141, 1, 78);
+    font-size: 30px;
+}
+
+#fondo {
+    background-image: url(../fotos/fondoweb.jpg);
+    background-size: conver;;
+    padding-top: 1px;
+}
+
+ /*Estilos para el pie de pagina*/ 
+ /*Contenedor principal del pie de pagina*/
+#flexContainer {
+    display: flex;
+    justify-content: space-between;
+    /*Distribuir elementos de manera uniforme*/
+    flex-wrap: wrap;
+    /*Permitir que los elementos se envuelvan en varias lineas*/
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(204, 182, 154);
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer {  
+    flex-direction: column;
+    align-items: left;
+    width: 28%;
+    height: auto;
+} & ul  {
+    padding: 0;
+}
+
+.footer li {
+    list-style-type: none;
+    padding: 5px;
+}
+.footer img {
+  width: 11%;
+  height: auto;
+}
+
+#flexContainer p {
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    line-height: 1.6;
+} 
+ 
+.logotipo2 {
+    width: 150px;
+    height: 95px;
+}
+#flexContainer a {
+    align-self: center;
+    width: 150px;
+    height: 95px;
+}
+
+.movil {
+    width: 16px;
+    height: 16px;
+    
+}
+.sobre {
+    width: 16px;
+    width: 16px;
+}

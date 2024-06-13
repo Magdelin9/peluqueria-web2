@@ -1,0 +1,162 @@
+#tema {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  width: auto;
+  height: 100%;
+  background-color: antiquewhite;
+  border: 2px solid rgb(204, 182, 154);
+  border-radius: 20px;
+}
+#tema a {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  height: 40vh;
+  margin-right: 30px;
+}
+#tema img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+}
+#tema img:hover {
+  transform: scale(1.1);
+}
+
+.caja {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.caja p {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#grid3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  gap: 3%;
+  margin: 20px 5%;
+}
+
+.caja3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  height: auto;
+  padding: 10px 0;
+  margin-bottom: 2%;
+}
+
+.caja3 p {
+  font-size: 15px;
+}
+.imagen3 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-self: center;
+}
+.imagen3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;  
+}
+h3 {
+  font-size: 19px;
+  text-align: center;
+  margin: 0;
+}
+.parrafo3, .precio3 {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+@media(max-width:1000px){
+#tema {
+    display: block;
+    margin: 40px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 2px solid rgb(204, 182, 154);
+    padding: 0 20px;
+}
+#tema a {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+#tema img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 20px 25px 5px 0;
+}
+.caja {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 17px;
+}
+.caja3 {
+  width: 20%;
+}
+.caja3 p {
+  font-size: 13px;
+}
+}
+
+
+@media(max-width:700px){
+#tema {
+  display: block;
+  margin: 40px;
+  height: auto;
+  background-color: antiquewhite;
+  border: 2px solid rgb(204, 182, 154);
+}
+
+#tema img {
+  width: auto;
+  height: 18vh;
+}
+.caja {
+  font-size: 13px;
+}
+#tema h2 {
+  font-size: 17px;
+}
+ 
+.caja3 {
+  width: 40%;
+}
+.caja3 p {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 15px;
+}
+}
+
+
+

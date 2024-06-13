@@ -1,0 +1,280 @@
+@media (max-width:1000px){
+.logo {
+  width: 95px;
+  height: auto;
+} 
+.logo a {
+  width: 95px;
+  height: auto;
+}
+
+.logotipo {
+  width: 95px;
+  height: auto;
+}
+
+#carrito {
+  width: 52px;
+  height: 31px;
+  margin-right: 20px;
+}
+#carrito img {
+  width: 52px;
+  height: 31px;
+}
+.menuRojo {
+  width: 535px;
+  height: auto;
+  margin-right: 20px;
+}
+.menuRojo ul {
+  gap: 4%;
+}
+
+.menuRojo li a {
+  font-size: 18px;
+}
+
+.reserva {
+  width: 130px; 
+  height: 38px;
+  padding: 10px;
+}
+.reserva a {
+  font-size: 16px;
+}
+.reserva button {
+  width: 100%;
+  height: 38px;
+}
+#botonAñadir {
+  font-size: 13px;
+  width: 130px;  
+}
+h1 {
+  font-size: 27px;
+}
+h2 {
+  font-size: 28px; 
+}
+
+#flexContainer {
+  padding: 25px;
+}
+
+.footer {
+  width: 180px;
+  height: auto;
+  font-size: 14px;
+}
+.footer img {
+  width: 17%;
+  height: auto;
+}
+#flexContainer p {
+  width: 270px;
+  height: auto;
+  font-size: 14px;
+}
+.logotipo2 {
+  width: 120px;
+  height: 75px;
+}
+#flexContainer a {
+  width: 120px;
+  height: 75px;
+}
+.movil {
+  width: 15px;
+  height: 15px;
+  
+}
+.sobre {
+  width: 15px;
+  width: 15px;
+}
+}
+
+
+@media (max-width:700px) { 
+#cabecera {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logo reserva1 carrito menuRojo1";
+  align-items: center;
+  position: fixed;
+  width: 80%;
+  height: 60px;
+  padding: 6px 18% 6px 2%;
+}
+
+.logo {
+  width: 85px;
+  height: auto;
+  margin-right: -100px;
+  grid-area: logo;
+} 
+ .logo a {
+  width: 85px;
+  height: auto;
+ }
+.logotipo {
+  width: 85px;
+  height: auto;
+}
+
+.reserva {
+ display: none;
+}
+.reserva1 {
+  display: flex;
+  width: 106px; 
+  height: auto;
+  margin: 0 -10% 0 90%;
+  grid-area: reserva1;
+}
+.reserva1 a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.reserva1 button {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 36px; 
+  border-radius: 10px;
+  border: 2px solid rgb(204, 182, 154);
+}
+.reserva1 button:hover {
+  transform: scale(1.1);
+  background-color: rgb(141, 1, 78);
+  & a {
+    color: white;
+  }
+}
+ .menuRojo1 {
+  display: flex;
+  align-self: center;
+  width: 38px;
+  height: 38px;
+  margin-left: 130%;
+  grid-area: menuRojo1;
+}
+
+.menuRojo1 img {
+  width: 38px;
+  height: 38px;
+}
+.menuRojo1 ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menuRojo {
+  display: none;
+}
+
+#carrito {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  margin: 0 50% 0 150%;
+  grid-area: carrito;
+}
+#carrito img {
+  width: 50px;
+  height: 30px;
+}
+.barra {
+  display: none;
+}
+.barra li {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px;
+}
+.button  {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#toggle:checked ~ .barra {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(250, 235, 215, 0.719);
+    position: fixed;
+    top: 72px;
+    right: 0;
+    width: 140px; 
+    & ul {
+      text-align: center; 
+    }
+}
+
+.flecha {
+  font-size: 20px;
+  width: 35px;
+  height: 40px;
+  margin: 3% 3%;
+}
+#botonAñadir {
+  font-size: 11px;
+  width: 100px;  
+}
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#flexContainer {
+  padding: 17px;
+}
+.footer {
+  font-size: 13px;
+}
+.footer img {
+  width: 14%;
+  height: auto;
+}
+#flexContainer p {
+  flex-direction: column;
+  
+  width: 260px;
+  height: auto;
+  font-size: 13px;
+}
+
+.logotipo2 {
+  width: 100px;
+  height: 60px;
+}
+#flexContainer a {
+  width: 100px;
+  height: 60px;
+}
+.movil {
+  width: 13px;
+  height: 13px;
+  
+}
+.sobre {
+  width: 13px;
+  width: 13px;
+}
+}
+  
+ 
+
+
+
+
+
+
+
+

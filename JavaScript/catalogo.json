@@ -1,0 +1,171 @@
+[
+    {
+      "foto": "./fotos/olaplex0.webp",
+      "titulo": "Olaplex N°0",
+      "parrafo": 
+      "Acompaña y refuerza, multiplicando por 3, la acción reconstructora del tratamiento Olaplex Nº 3",
+      "precio": "25,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex1.png", 
+      "titulo": "Olaplex 1-2",
+      "parrafo":
+        " Perfeccionador, refuerza, proteje y repara el cabello, aportando brillo y elasticidad.",
+      "precio": "80,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex3.webp",
+      "titulo": "Olaplex 3",
+      "parrafo": "Olaplex Perfeccionador capilar y tratamiento reparador n.° 3",
+      "precio": "35,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex4.webp",
+      "titulo": "Olaplex 4",
+      "parrafo": "Champú antirroturas Olaplex Nº 4.",
+      "precio": "40,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex4-1.webp",
+      "titulo": "Olaplex 4-1",
+      "parrafo":
+        "Mascarilla de Olaplex 4 in 1 Moisture Mask con efectos 4 en 1 para el cabello.",
+      "precio": "50,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex5.webp",
+      "titulo": "Olaplex 5",
+      "parrafo": "Acondicionador antirroturas Olaplex Nº 5 Bond Maintenance.",
+      "precio": "30,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+   {
+      "foto": "./fotos/olaplex6.webp",
+      "titulo": "Olaplex 6",
+      "parrafo":
+        "Tratamiento en crema sin aclarado que elimina el encrespamiento, fortalece, hidrata y aporta brillo y manejabilidad al cabello.",
+      "precio": "30,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex7.webp",
+      "titulo": "Olaplex 7",
+      "parrafo":
+        "Bonding Oil™ maximiza el brillo, la suavidad y la viveza del color, repara y refuerza el cabello.",
+      "precio": "25,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex8.webp",
+      "titulo": "Olaplex 8",
+      "parrafo": "Bond intense N°8 Moisture Mask - Mascarilla reparadora.",
+      "precio": "35,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/olaplex9.webp",
+      "titulo": "Olaplex 9",
+      "parrafo":
+        "Bond protector Nourishing hair serum, aporta de forma inmediata, múltiples beneficios en cabellos secos, dañados o que se rompen con facilidad.",
+      "precio": "45,99€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/moroccanoil-shampoo-acondicionador.webp",
+      "titulo": "moroccanoil Shampoo y condicionador",
+      "parrafo": "Set de Champú y Acondicionador para aumentar el volumen",
+      "precio": "90,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+   {
+      "foto": "./fotos/moroccanoil-mascarilla.jpg",
+      "titulo": "Moroccanoil mascarilla",
+      "parrafo":
+        "Una mascarilla que acondiciona profundamente para ayudar a restaurar la humedad, la elasticidad y el brillo en el cabello seco.",
+      "precio": "40,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/morroccanoil-tratamiento.jpg",
+      "titulo": "Moroccanoil tratamiento",
+      "parrafo":
+        "Un aceite capilar multitarea con infusión de aceite de argán para suavizar el encrespamiento, desenredar, acondicionar el cabello.",
+      "precio": "40,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/moroccanoil-finish.jpg",
+      "titulo": "Moroccanoil finish",
+      "parrafo":
+        " Un pulverizador flexible de fijación media que fomenta el brillo y combate el encrespamiento. Ideal para los peinados diarios.",
+      "precio": "30,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/moroccanoil.png",
+      "titulo": "Moroccanoil finish",
+      "parrafo":
+        "Pack Moroccanoil es rica en Vitamina A y algas rojas. Para todo tipo de dcabello.",
+      "precio": "150,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/tahe2.png",
+      "titulo": "Tahe botanic",
+      "parrafo": "Pack Tahe botanic para cabellos secos y teñidos.",
+      "precio": "25,00€",
+      "boton": "Añadir a la cesta"
+    },
+{
+      "foto": "./fotos/tahe3.jpg",
+      "titulo": "Tahe advanced",
+      "parrafo": "Tahe Advanced Barber 103 Sublime Champú y mascarilla anticaída",
+      "precio": "22,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/tahetinte.jpg",
+      "titulo": "Tahe tinte",
+      "parrafo": "Hidrata, tonifica, nutre e ilumina tu cabello con Tinturas Tahe, cobertura de cañas 100% y base fría.",
+      "precio": "12,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/tahe-gold.jpg",
+      "titulo": "Tahe gold",
+      "parrafo": "Kit tahe gold, para una hidratacion profunda.",
+      "precio": "170,00€",
+      "boton": "Añadir a la cesta"
+    },
+
+    {
+      "foto": "./fotos/tahe-proteingold.jpg",
+      "titulo": "Tahe protein gold",
+      "parrafo":
+        "Kit tahe protein gold, para proteger y fortalecer el cabello.",
+      "precio": "160,00€",
+      "boton": "Añadir a la cesta"
+    }
+  ]
