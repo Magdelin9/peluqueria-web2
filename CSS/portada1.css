@@ -213,6 +213,11 @@ h2 {
       text-align: center; 
     }
 }
+#fondoPortada {
+  background-position-y: 13%;
+  background-size: contain;
+  height: 50vh;
+}
 
 .flecha {
   font-size: 20px;
@@ -233,10 +238,13 @@ h2 {
 }
 
 #flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 17px;
 }
 .footer {
-  font-size: 13px;
+  font-size: 12px;
 }
 .footer img {
   width: 14%;
