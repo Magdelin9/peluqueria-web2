@@ -50,7 +50,7 @@ table {
 
 .video {
     width: auto;
-    height: 260px;
+    height: 230px;
 }
 
 .video iframe {
@@ -74,11 +74,8 @@ table {
     border-spacing: 10px;
     }
     .video {
-      height: 200px;
+      height: 160px;
     }   
-    .video iframe {
-        height: 200px;
-    }
     }
 @media(max-width:700px){
     h3 {
@@ -91,15 +88,26 @@ table {
         font-size: 12px;
     }
     table { 
-        border-spacing: 5px;
-        height: 80px;
+        border-spacing: 9px;
+        margin: 5%;
+        width: 90%;
+        height: 100px;
         margin-top: -18px;
     }
-    
     .video {
-        height: 90px;
-    }  
-    .video iframe {
-        height: 90px;
+        height: 260px;
+        margin-bottom: 5%;
+    } 
+    td { 
+        display: block;
+     }  
     }
+
+    @media(max-width:500px){ 
+    table {
+        height: auto;
+    }
+    .video {
+        height: 160px;
+    } 
     }

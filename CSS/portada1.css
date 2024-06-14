@@ -219,9 +219,10 @@ h2 {
     }
 }
 #fondoPortada {
-  background-position-y: 36%;
+  background-position-y: 23%;
   background-size: contain;
-  height: 79vh;
+  background-clip: padding-box;
+  height: 61vh;
 }
 
 .flecha {
@@ -245,23 +246,23 @@ h2 {
 #flexContainer {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  text-align: center;
+  padding: 26px;
 }
 .footer {
-  width: 200px;
+  width: 280px;
   font-size: 12px;
 }
 .footer img {
-  width: 14%;
+  width: 10%;
   height: auto;
 }
 #flexContainer p {
   flex-direction: column;
-  width: 270px;
+  font-size: 12px;
+  width: 280px;
   height: auto;
-  font-size: 13px;
 }
-
 .logotipo2 {
   width: 120px;
   height: auto;
@@ -281,8 +282,12 @@ h2 {
 }
 }
   
- 
-
+@media (max-width:500px){ 
+#fondoPortada {
+  background-position-y: 20%;
+  height: 55vh;
+}
+}
 
 
 
