@@ -2,12 +2,10 @@ const fondo = document.getElementById('fondoPortada');
 const flechaIzquierda = document.getElementById('flechaIzquierda');
 const flechaDerecha = document.getElementById('flechaDerecha');
 const fotos = [   './fotos/portada.jpg', 
-                  './fotos/portada6.jpg',
-                  './fotos/portada2.webp', 
-                  './fotos/portada3.jpg',
-                  './fotos/portada4.webp',
+                  './fotos/portada2.png',
+                  './fotos/portada3.jpg', 
+                  './fotos/portada4.jpg',
                   './fotos/portada5.jpg',
-                 
                   ]; // Rutas de las imágenes
 
 let currentIndex = 0;

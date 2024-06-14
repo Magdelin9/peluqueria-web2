@@ -45,7 +45,7 @@ table {
     border-spacing: 15px;
     width: 94%;
     height: auto;
-    margin: 0 3%;
+    margin:  3%;
 }
 
 .video {
@@ -89,13 +89,17 @@ table {
     }
     #container p {
         font-size: 12px;
-      }
+    }
+    table { 
+        border-spacing: 5px;
+        height: 80px;
+        margin-top: -18px;
+    }
     
     .video {
-        height: 100px;
+        height: 90px;
     }  
     .video iframe {
-        height: 140px;
+        height: 90px;
     }
-      
     }

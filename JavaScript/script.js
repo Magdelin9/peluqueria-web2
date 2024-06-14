@@ -49,6 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
           <img src="./fotos/maquillaje.jpg" alt="imagen3" />
         </div>
         <div class="item">
+          <img src="./fotos/look2.jpg" alt="imagen6" />
+        </div>
+        <div class="item">
+          <img src="./fotos/look3.jpg" alt="imagen6" />
+        </div>
+        <div class="item">
+          <img src="./fotos/look4.png" alt="imagen6" />
+        </div>
+        <div class="item">
           <img src="./fotos/cortes.jpg" alt="imagen4" />
         </div>
         <div class="item">

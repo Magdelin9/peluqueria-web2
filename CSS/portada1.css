@@ -103,6 +103,7 @@ h2 {
   grid-template-areas: "logo reserva1 carrito menuRojo1";
   align-items: center;
   position: fixed;
+  background-color: rgb(250, 235, 215);
   width: 80%;
   height: 60px;
   padding: 6px 18% 6px 2%;
@@ -128,14 +129,14 @@ h2 {
 }
 .reserva1 {
   display: flex;
-  width: 106px; 
+  width: 103px; 
   height: auto;
-  margin: 0 -10% 0 90%;
+  margin-left: 70%;
   grid-area: reserva1;
 }
 .reserva1 a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 .reserva1 button {
@@ -179,10 +180,14 @@ h2 {
   display: flex;
   width: 50px;
   height: 30px;
-  margin: 0 50% 0 150%;
+  margin: 0 50% 0 140%;
   grid-area: carrito;
 }
 #carrito img {
+  width: 50px;
+  height: 30px;
+}
+#carrito a {
   width: 50px;
   height: 30px;
 }
@@ -214,9 +219,9 @@ h2 {
     }
 }
 #fondoPortada {
-  background-position-y: 13%;
+  background-position-y: 36%;
   background-size: contain;
-  height: 50vh;
+  height: 79vh;
 }
 
 .flecha {
@@ -239,11 +244,11 @@ h2 {
 
 #flexContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 17px;
+  justify-content: center;
+  padding: 30px;
 }
 .footer {
+  width: 200px;
   font-size: 12px;
 }
 .footer img {
@@ -252,19 +257,18 @@ h2 {
 }
 #flexContainer p {
   flex-direction: column;
-  
-  width: 260px;
+  width: 270px;
   height: auto;
   font-size: 13px;
 }
 
 .logotipo2 {
-  width: 100px;
-  height: 60px;
+  width: 120px;
+  height: auto;
 }
 #flexContainer a {
-  width: 100px;
-  height: 60px;
+  width: 120px;
+  height: auto;
 }
 .movil {
   width: 13px;
