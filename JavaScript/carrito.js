@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Verificar el origen del producto y cargar el catálogo correspondiente
         let catalogoURL = "";
-        if (window.location.pathname.includes("cabello2.html")) {
+        if (window.location.pathname.includes("cabello.html")) {
             catalogoURL = "./JavaScript/catalogo.json";
-        } else if (window.location.pathname.includes("accesorios2.html")) {
+        } else if (window.location.pathname.includes("accesorios.html")) {
             catalogoURL = "./JavaScript/productos.json";
         }
 

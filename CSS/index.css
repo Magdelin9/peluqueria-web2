@@ -21,7 +21,8 @@ em  {
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(2, 1fr);
      gap: 1.5%;
-     margin: 30px 5%; 
+     margin: 30px 5%;
+     margin-bottom: 60px; 
 }
 
 .item img {
@@ -42,10 +43,10 @@ h3 {
 
 table { 
     border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 15px 0;
     width: 94%;
     height: auto;
-    margin:  3%;
+    margin:  0 3% 2% 3%;
 }
 
 .video {

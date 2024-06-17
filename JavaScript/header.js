@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
       <nav class="barra">
         <ul>
           <li><a href="index.html">INICIO</a></li>
-          <li><a href="cabello2.html">CABELLO</a></li>
-          <li><a href="accesorios2.html">ACCESORIOS</a></li>
-          <li><a href="servicio2.html">SERVICIO</a></li>
-          <li><a href="registro2.html">ACCESO</a></li>
+          <li><a href="cabello.html">CABELLO</a></li>
+          <li><a href="accesorios.html">ACCESORIOS</a></li>
+          <li><a href="servicio.html">SERVICIO</a></li>
+          <li><a href="registro.html">ACCESO</a></li>
         </ul>
       </nav>
     </div>
@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <nav class="barra">
           <ul>
             <li><a href="index.html">INICIO</a></li>
-            <li><a href="cabello2.html">CABELLO</a></li>
-            <li><a href="accesorios2.html">ACCESORIOS</a></li>
-            <li><a href="servicio2.html">SERVICIO</a></li>
-            <li><a href="registro2.html">ACCESO</a></li>
+            <li><a href="cabello.html">CABELLO</a></li>
+            <li><a href="accesorios.html">ACCESORIOS</a></li>
+            <li><a href="servicio.html">SERVICIO</a></li>
+            <li><a href="registro.html">ACCESO</a></li>
           </ul>
         </nav>
       </div>
