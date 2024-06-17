@@ -227,7 +227,8 @@ h1 {
 #fondo {
     background-image: url(../fotos/fondoweb.jpg);
     background-size: conver;;
-    padding-top: 1px;
+    padding: 1px;
+    padding-bottom: 30px;
 }
 
  /*Estilos para el pie de pagina*/ 

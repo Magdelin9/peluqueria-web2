@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    margin: 50px;   
+    margin: 0 50px;   
 }
 .column {
     background-color: antiquewhite;
@@ -11,6 +11,7 @@
     margin: 30px;
     overflow: scroll;
 }
+
 .column h2 {
   font-size: 28px;
   text-align: center;
