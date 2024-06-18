@@ -103,7 +103,7 @@ h2 {
   grid-template-areas: "logo reserva1 carrito menuRojo1";
   align-items: center;
   position: fixed;
-  background-color: rgb(250, 235, 215);
+  background-color: rgb(255, 255, 255);
   width: 80%;
   height: 60px;
   padding: 6px 18% 6px 2%;
@@ -153,29 +153,6 @@ h2 {
     color: white;
   }
 }
- .menuRojo1 {
-  display: flex;
-  align-self: center;
-  width: 38px;
-  height: 38px;
-  margin-left: 130%;
-  grid-area: menuRojo1;
-}
-
-.menuRojo1 img {
-  width: 38px;
-  height: 38px;
-}
-.menuRojo1 ul {
-  display: block;
-  list-style-type: none;
-  margin: 0;
-}
-
-.menuRojo {
-  display: none;
-}
-
 #carrito {
   display: flex;
   width: 50px;
@@ -191,13 +168,34 @@ h2 {
   width: 50px;
   height: 30px;
 }
+.menuRojo1 {
+  display: flex;
+  align-self: center;
+  width: 38px;
+  height: 38px;
+  margin-left: 130%;
+  grid-area: menuRojo1;
+}
+.menuRojo1 img {
+  width: 38px;
+  height: 38px;
+}
+.menuRojo1 ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+}
+.menuRojo {
+  display: none;
+}
 .barra {
   display: none;
 }
 .barra li {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
-  padding: 12px;
+  padding: 10px;
+  height: 42px;
 }
 .button  {
   cursor: pointer;
@@ -207,16 +205,16 @@ h2 {
 }
 
 #toggle:checked ~ .barra {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(250, 235, 215, 0.719);
-    position: fixed;
-    top: 72px;
-    right: 0;
-    width: 140px; 
-    & ul {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 72px;
+  right: 0;
+  width: 145px; 
+& ul {
       text-align: center; 
-    }
+}
 }
 #fondoPortada {
   background-position-y: 23%;
@@ -227,9 +225,10 @@ h2 {
 
 .flecha {
   font-size: 20px;
+  top: 35%;
   width: 35px;
   height: 40px;
-  margin: 3% 3%;
+  margin: 4% 4%;
 }
 #botonAñadir {
   font-size: 11px;
@@ -283,9 +282,49 @@ h2 {
 }
   
 @media (max-width:500px){ 
+#toggle:checked ~ .barra {
+  width: 130px;
+}
+.barra li {
+  height: 34.5px;
+  font-size: 15px;
+}
 #fondoPortada {
   background-position-y: 20%;
   height: 55vh;
+}
+.flecha {
+  font-size: 16px;
+  top: 33%;
+  width: 25px;
+  height: 33px;
+}
+}
+@media (max-width:360px){ 
+#fondoPortada {
+  background-position-y: 12%;
+  height: 35.2vh;
+}
+.flecha {
+  font-size: 15px;
+  top: 22%;
+  width: 20px;
+  height: 30px;
+  margin: 5% 5%;
+}
+.barra li {
+  font-size: 13px;
+  height: 22px;
+}
+#toggle:checked ~ .barra {
+  width: 110px;
+}
+h1 {
+  font-size: 19px;
+}
+
+h2 {
+  font-size: 17px;
 }
 }
 

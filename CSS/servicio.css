@@ -66,23 +66,28 @@ h3 {
 @media(max-width:700px){
 h3 {
     font-size: 13px;
-}
-    
+}   
 .tabla {
     width: auto;
     height: auto;
     padding: 0;
     background-color: antiquewhite;
-}
-    
+}   
 .tabla li {
-    font-size: 12px;  
+    font-size: 11px;  
     padding: 2px;
 }
-
 .mapa {
     width: auto;
     height: auto;
-    margin: 10px 100px;
+    margin: 10px 50px;
+}
+}
+@media(max-width:360px){
+h3 {
+    font-size: 11px;
+}
+.tabla li {
+    font-size: 10px;  
 }
 }

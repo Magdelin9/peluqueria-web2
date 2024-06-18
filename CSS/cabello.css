@@ -139,13 +139,12 @@ h3 {
   width: auto;
   height: 18vh;
 }
-.caja {
-  font-size: 13px;
-}
 #tema h2 {
   font-size: 17px;
 }
- 
+.caja {
+  font-size: 12px;
+} 
 .caja3 {
   width: 40%;
 }
@@ -157,6 +156,21 @@ h3 {
   font-size: 15px;
 }
 }
-
+@media(max-width:360px){
+#tema {
+   margin: 25px;
+}  
+#tema img {
+  width: auto;
+  height: 10vh;
+  margin-right: 10px;
+}
+.caja {
+  font-size: 11px;
+} 
+.caja3 p {
+  font-size: 11px;
+}
+}
 
 

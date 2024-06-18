@@ -84,7 +84,7 @@ h3 {
     margin: 20px;   
 }
 .column {
-    font-size: 13px;
+    font-size: 12px;
     margin: 5px;
 }
 .column h2 {
@@ -98,8 +98,19 @@ h3 {
     font-size: 12px;
     margin-top: 0;
 }
-
 h3 {
   font-size: 15px;
 }  
+}
+@media(max-width:360px){
+.container {
+   display: block;
+   margin: 30px;   
+}    
+.column {
+   font-size: 11px;
+}
+.caja3 p {
+   font-size: 11px;
+}   
 }

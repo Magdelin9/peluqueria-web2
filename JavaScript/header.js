@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const reservar = `
     <div class="reserva1">
       <button>
-        <a href="registro2.html">Reservar cita</a>
+        <a href="registro.html">Reservar cita</a>
       </button>
     </div>
   `;
