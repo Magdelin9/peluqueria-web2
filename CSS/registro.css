@@ -9,7 +9,7 @@ h3 {
     width: auto;
     height: auto;
     margin: 20px 130px;
- }
+}
 
 .imagen {
     display: flex;
@@ -128,22 +128,22 @@ form button {
 
 @media (max-width:700px) {
 h3 {
-        font-size: 18px;
+    font-size: 18px;
 }
 #form {
-        width: auto;
-        height: auto;
-        margin: 10px 30px;
-    }
+    width: auto;
+    height: auto;
+    margin: 10px 30px;
+}
 .imagen {
-        width: 45%;
-        height: 120px;
-        margin: 20px 0;
+    width: 45%;
+    height: 120px;
+    margin: 20px 0;
 }
 #column {
-        font-size: 11px;
-        width: 40%;
-        height: auto;
+    font-size: 11px;
+    width: 40%;
+    height: auto;
 }
     
 input {
@@ -170,4 +170,24 @@ form button {
     width: 50px;
     height: 23px;
 } 
+}
+
+@media (max-width:360px){
+#form {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 20px 10%;
+}
+#column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.imagen {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
 }
