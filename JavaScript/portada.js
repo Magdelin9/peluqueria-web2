@@ -4,7 +4,6 @@ const flechaDerecha = document.getElementById('flechaDerecha');
 const fotos = [   './fotos/portada.jpg', 
                   './fotos/portada2.png',
                   './fotos/portada3.jpg', 
-                  './fotos/portada4.png',
                   './fotos/portada5.jpg',
                   ]; // Rutas de las imágenes
 
